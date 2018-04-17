@@ -1,9 +1,9 @@
 {
-    "family": "pw-ecr-repo",
+    "family": "pw-ecr-repo-02",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "pw-ecr-repo",
+            "name": "pw-ecr-repo-02",
             "cpu": 10,
             "memory": 256,
             "essential": true,
